@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <!-- TODO 2: Navbar with Transition Effects -->
+    <nav class="navbar">
+        <h2 class="logo">Portfolio</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Fade-in Animation -->
+    <header id="home" class="hero">
+        <div class="hero-text">
+            <h1>Ahmed Zeyad Portfolio</h1>
+            <p>
+                Computer Engineering and Artificial Intelligence student interested in
+                web development, databases, and modern CSS techniques.
+            </p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="ahmed-photo.jpeg" alt="Ahmed Zeyad Profile Photo">
+        </div>
+    </header>
+
+    <!-- TODO 4: Skill Cards with Scale on Hover -->
+    <section id="skills" class="section fade-section">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML5</h3>
+                <p>Semantic markup and accessibility</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS3</h3>
+                <p>Animations, Grid, Flexbox</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Basic DOM manipulation</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <p>Version control and collaboration</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Responsive Design</h3>
+                <p>Mobile-first approach</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Bootstrap</h3>
+                <p>Rapid UI development</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TODO 5: Project Cards with Image Overlay -->
+    <section id="projects" class="section fade-section">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Some of my recent work</p>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="E-Commerce Dashboard">
+                <div class="project-overlay">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Weather Application">
+                <div class="project-overlay">
+                    <h3>Weather Application</h3>
+                    <p>JavaScript, API Integration</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80" alt="Mobile App Landing">
+                <div class="project-overlay">
+                    <h3>Mobile App Landing</h3>
+                    <p>HTML, CSS, Bootstrap</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TODO 6: Scroll-Triggered Animations using CSS only -->
+    <section id="contact" class="section contact fade-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p>
+            Feel free to reach out for collaborations or just a friendly chat.
+        </p>
+        <p>Email: <a href="mailto:ah2004ze@gmail.com">ah2004ze@gmail.com</a></p>
+        <p>Phone: <a href="tel:0592962575">0592962575</a></p>
+    </section>
+
+</body>
+</html>
